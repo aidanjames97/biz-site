@@ -1,5 +1,37 @@
 html, body {
-    background-color: #282c34;
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #282c34;
+    background-color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* for scrollbar */
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.entireSite {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* pic scroller */
+.backPhoto {
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index: 0;
+}
+
+.backPhoto img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ---- BODY ---- */
+.aboutUs {
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    top: 100vh;
+    margin-top: 50px;
 }

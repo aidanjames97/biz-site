@@ -1,0 +1,52 @@
+.Navbar {
+    height: auto;
+    width: 100px;
+    color: black;
+}
+
+.NavbarContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+
+    backdrop-filter: blur(10px);
+    mask: linear-gradient(white 90%, transparent);
+}
+
+.nameContain {
+    margin: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    height: 50px;
+    width: 80px;
+}
+
+.nameContain:hover {
+    cursor: pointer;
+}
+
+.rightSideNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.navButton {
+    transition: ease-in-out 0.2s;
+    align-self: center;
+    justify-content: center;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navButton:hover {
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}

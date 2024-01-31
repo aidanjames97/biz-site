@@ -1,0 +1,22 @@
+.About {
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    color: black;
+}
+
+.AboutContainer {
+    height: auto;
+    width: 100%;
+}
+
+.title {
+    font-size: 4vw;
+    font-weight: 800;
+    margin: 0;
+}
+
+.aboutThem {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,14 +1,26 @@
 import './App.css';
-import site from "./site.js";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from 'react';
+import Navbar from "./Navbar";
+import Landing from "./Landing";
+import About from "./About";
 
 function App() {
   return (
-    <Router>
-        <Routes>
-          <Route path="/" Component={site}/>
-        </Routes>  
-    </Router>
+    <div className="App">
+      <div className='navbarClass'>
+        <Navbar/>
+      </div>
+      <div className='landingClass'>
+        <section id='landing'>
+          <Landing/>
+        </section>
+      </div>      
+      <div className='aboutClass'>
+        <section id='about'>
+          <About/>
+        </section>
+      </div> 
+    </div>
   );
 }
 

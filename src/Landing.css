@@ -1,0 +1,24 @@
+.Landing {
+    height: 100%;
+    width: 100%;
+}
+
+.LandingContainer {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.landingBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 100%;
+    margin: 0;
+}
