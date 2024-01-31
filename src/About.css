@@ -1,22 +1,49 @@
-.About {
-    height: auto;
+html, body {
     width: 100%;
-    z-index: 0;
-    color: black;
+    color: aliceblue;
 }
 
 .AboutContainer {
-    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutLeftSide {
+    width: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    display: flex;
+}
+
+.aboutLeftSide img {
     width: 100%;
 }
 
-.title {
-    font-size: 4vw;
-    font-weight: 800;
-    margin: 0;
+.aboutRightSide {
+    width: 40%;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
-.aboutThem {
-    display: flex;
-    flex-direction: row;
+.title {
+    font-size: 100px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -90%;
+}
+
+.aboutParagraph {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
 }
