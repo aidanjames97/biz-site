@@ -1,11 +1,14 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  scrollbar-width: none;
+}
+
 .App {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  scrollbar-width: none;
 }
 
 .navbarClass {
@@ -26,4 +29,5 @@
   height: auto;
   padding-top: 2vh;
   padding-bottom: 2vh;
+  background-color: #161618;
 }
