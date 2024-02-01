@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from "./Navbar";
 import Landing from "./Landing";
 import About from "./About";
+import Products from "./products";
 
 function App() {
   return (
@@ -19,7 +20,12 @@ function App() {
         <section id='about'>
           <About/>
         </section>
-      </div> 
+      </div>
+      <div className='productsClass'>
+        <section id='products'>
+          <Products/>
+        </section>
+      </div>  
     </div>
   );
 }
