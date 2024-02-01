@@ -7,15 +7,15 @@ html, body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 120px;
+    height: 110px;
 
     backdrop-filter: blur(10px);
-    mask: linear-gradient(white 90%, transparent);
+    mask: linear-gradient(white 70%, transparent);
 }
 
 .nameContain {
+    margin-top: 20px;
     margin-left: 50px;
-    margin-top: 30px;
 }
 
 .nameContain h1 {

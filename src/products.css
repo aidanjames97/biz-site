@@ -1,0 +1,36 @@
+.productsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* left side (title and text */
+.textLeft {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.titleProducts {
+    font-size: 100px;
+    margin: 0;
+}
+
+/* right side (pics) */
+.rightSide {
+    width: 45%;
+    margin-right: 5%;
+
+    border-style: solid;
+    border-width: 2px;
+}
+
+.picContain img {
+    width: 60%;
+    z-index: 1;
+}
+
+.picContain b {
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
