@@ -27,15 +27,15 @@ html, body {
 .aboutClass {
   width: 100%;
   height: auto;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   background-color: #161618;
 }
 
 .productsClass {
   width: 100%;
   height: auto;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   background-color: #161618;
 }

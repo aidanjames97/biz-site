@@ -6,31 +6,123 @@
 
 /* left side (title and text */
 .textLeft {
-    width: 45%;
-    margin-left: 5%;
+    width: 50%;
 }
 
 .titleProducts {
     font-size: 100px;
     margin: 0;
+    margin-left: 10%;
+}
+
+.difTexts {
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.comText {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.resText {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.eventText {
+    width: 100%;
+    display: flex;
+    text-align: left;
 }
 
 /* right side (pics) */
 .rightSide {
-    width: 45%;
-    margin-right: 5%;
-
-    border-style: solid;
-    border-width: 2px;
+    width: 50%;
 }
 
-.picContain img {
-    width: 60%;
-    z-index: 1;
-}
-
-.picContain b {
-    justify-content: center;
+.picContainR {
+    position: relative;
     text-align: center;
-    z-index: 2;
+    background: transparent;
+    width: 70%;
+    border: none;
+}
+
+.picContainR img {
+    transition: ease-in-out .3s;
+    width: 100%;
+    opacity: 60%;
+}
+
+.picContainR:hover img {
+    transition: ease-in-out .3s;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.picContainR:focus img {
+    opacity: 100%;
+}
+
+.picContainC {
+    position: relative;
+    text-align: center;
+    background: transparent;
+    width: 70%;
+    border: none;
+}
+
+.picContainC img {
+    transition: ease-in-out .3s;
+    width: 100%;
+    opacity: 60%;
+}
+
+.picContainC:hover img {
+    transition: ease-in-out .3s;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.picContainC:focus img {
+    opacity: 100%;
+}
+
+.picContainE {
+    position: relative;
+    text-align: center;
+    background: transparent;
+    width: 70%;
+    border: none;
+}
+
+.picContainE img {
+    transition: ease-in-out .3s;
+    width: 100%;
+    opacity: 60%;
+}
+
+.picContainE:hover img {
+    transition: ease-in-out .3s;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.picContainE:focus img {
+    opacity: 100%;
+}
+
+.textMiddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

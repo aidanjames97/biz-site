@@ -9,47 +9,58 @@ function products() {
         <div className="productsContainer">
             <div className="textLeft">
                 <h1 className="titleProducts">Products</h1>
-                <b className="comText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aenean venenatis congue magna, luctus imperdiet ex 
-                    imperdiet et. Interdum et malesuada fames ac ante ipsum 
-                    primis in faucibus. Proin placerat dignissim metus. Nam 
-                    vitae fringilla neque. Nunc rutrum neque lectus, convallis 
-                    cursus erat faucibus quis.
-                </b>
-                <b className="resText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aenean venenatis congue magna, luctus imperdiet ex 
-                    imperdiet et. Interdum et malesuada fames ac ante ipsum 
-                    primis in faucibus. Proin placerat dignissim metus. Nam 
-                    vitae fringilla neque. Nunc rutrum neque lectus, convallis 
-                    cursus erat faucibus quis.
-                </b>
-                <b className="eventText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aenean venenatis congue magna, luctus imperdiet ex 
-                    imperdiet et. Interdum et malesuada fames ac ante ipsum 
-                    primis in faucibus. Proin placerat dignissim metus. Nam 
-                    vitae fringilla neque. Nunc rutrum neque lectus, convallis 
-                    cursus erat faucibus quis.
-                </b>
+                <div className="difTexts">
+                    <b className="comText">
+                        Our commerial package includes a multitude of video and
+                        photographic tools to portray your business in its best light!
+                        Key services we provide are:
+                        <ul>
+                            <li>360 space mapping</li>
+                            <li>High-Resolution pictures</li>
+                            <li>Drone footage of site</li>
+                            <li>In house editing and picture enhancements</li>
+                        </ul>
+                    </b>
+                    <b className="resText">
+                        Our residential package includes a multitude of video and
+                        photographic tools to portray your home or appartement
+                        in its best light! Key services we provide are:
+                        <ul>
+                            <li>360 space mapping</li>
+                            <li>High-Resolution pictures</li>
+                            <li>Drone footage of site</li>
+                            <li>In house editing and picture enhancements</li>
+                        </ul>
+                    </b>
+                    <b className="eventText">
+                        Our events package includes a multitude of video and
+                        photographic tools to truly bring the event to life.
+                        Key services we provide are:
+                        <ul>
+                            <li>360 space mapping</li>
+                            <li>High-Resolution pictures</li>
+                            <li>Drone footage of site</li>
+                            <li>In house editing and picture enhancements</li>
+                        </ul>
+                        </b>
+                </div>
             </div>
 
-            <div className="picsRight">
-                <div className="picContain">
+            <div className="rightSide">
+                <button className="picContainR">
                     <img src={house1} alt="rez"></img>
-                    <b>RESIDENTIAL</b>
-                </div>
+                    <div className="textMiddle">RESIDENTIAL</div>
+                </button>
 
-                <div className="picContain">
+                <button className="picContainC">
                     <img src={com} alt="rez"></img>
-                    <b>COMMERCIAL</b>
-                </div>
+                    <div className="textMiddle">COMMERCIAL</div>
+                </button>
 
-                <div className="picContain">
+                <button className="picContainE">
                     <img src={event} alt="event"></img>
-                    <b>EVENTS</b>
-                </div>
+                    <div className="textMiddle">EVENTS</div>
+                </button>
             </div>
         </div>
     );
